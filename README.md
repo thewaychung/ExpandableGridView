@@ -41,6 +41,8 @@ Register click listener to the up/down images in cover layer. When the two parts
                 Toast.makeText(getBaseContext(), clickPositionData.toString()+" clicked", Toast.LENGTH_LONG).show();
             }
         });
+        
+>Notice: the uper parent group of the grid view should be 'RelativeLayout'. Otherwise, the expanded grid view may can not be shown normally.
 
 ##Customization
 This `ExpandableGridView` is only a kind of expand solution, that to display another sub grid view in the expand space. If you wanna have some other customized sub views in the expand space, you can customize the `ExpandableGridView.java` as you like.
