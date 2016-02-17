@@ -13,7 +13,7 @@ Register click listener to the up/down images in cover layer. When the two parts
 
 ##Usage
 0. Include the class `ExpandableGridView.java` in your project.
-1. In the layout resource file, define a `ExpandableGridView`. Set the properties as `GridView` does.
+1. In the layout resource file, define a `ExpandableGridView`. Set the properties as `GridView` does, make sure set `android:background`.
 2. In the activity, init the `ExpandableGridView`, set adapter and item click listener to grid view. When item is clicked, expand grid view, e.g.:
 
         ExpandableGridView countryGridView = (ExpandableGridView)findViewById(R.id.country_grid);
